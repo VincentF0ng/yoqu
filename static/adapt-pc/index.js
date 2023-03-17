@@ -1,5 +1,4 @@
 ;(function(){
-	console.log('test')
 	if(window.innerWidth < 768){
 		return;
 	}
