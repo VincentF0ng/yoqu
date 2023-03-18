@@ -11,6 +11,10 @@ body[adapt='pc'] {
 	background-color: #fff;
 	width: 100vw;
 	height: 100vh;
+	background-image: url("https://mp-9c9554a3-d4de-4f0f-b941-dfe1990da1c1.cdn.bspapp.com/cloudstorage/c51f381a-5fb6-44d1-ac10-0b754686380b.jpg");
+	background-repeat: no-repeat;
+	background-size: 1000px;
+	background-position-x: right;
 }
 
 body[adapt='pc']::-webkit-scrollbar,html::-webkit-scrollbar {
@@ -64,4 +68,10 @@ body[adapt='pc'] uni-adapt-pc .content{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	padding-bottom: 120px;
+	box-sizing: border-box;
+	background-image: url("https://mp-9c9554a3-d4de-4f0f-b941-dfe1990da1c1.cdn.bspapp.com/cloudstorage/a0113f24-9ee7-46d9-95b2-fce567e7f4e8.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position-y: bottom;
 }
