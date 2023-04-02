@@ -1,0 +1,1 @@
+import{ap as e,L as r,s as o,k as s}from"./index-ab7ec73d.js";function i(){return new Promise(((i,t)=>{e({success(e){if(e.code){r.importObject("profile").getUserInfo(e.code).then((e=>{e.openid?(o("user",e),i(e)):(s({icon:"error",title:"登录失败！"}),t())}))}else s({icon:"error",title:"登录失败！"}),t()}})}))}export{i as g};
